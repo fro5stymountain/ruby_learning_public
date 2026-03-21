@@ -19,7 +19,7 @@
 
 # Example: Sum numbers
 
-def sum_arrary(arr)
+def sum_array(arr)
   total = 0
 
   arr.each do |num|
