@@ -14,6 +14,8 @@ end
 # input [1,2,3]
 # output => [2,4,6]
 
+puts m_double_numbers([1,2,3]) # => [2,4,6]
+
 # Loop version
 def l_double_numbers(arr)
   result = []
@@ -25,5 +27,6 @@ def l_double_numbers(arr)
 result
 end
 
+puts l_double_numbers([2,8,12]) # => [4,16,24]
 
 

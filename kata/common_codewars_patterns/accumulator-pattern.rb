@@ -29,6 +29,8 @@ def sum_array(arr)
   total
 end
 
+puts sum_array([1,2,3]) # => 6
+
 # Mental model
 # Start with nothing
 # Add things one at a time

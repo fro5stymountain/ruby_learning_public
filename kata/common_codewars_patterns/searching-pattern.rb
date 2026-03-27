@@ -25,3 +25,5 @@ end
 # Assume first value is smallest
 # Compare everything else
 # Update when smaller
+
+puts smallest([5,2,9,1,5,6]) # => 1
