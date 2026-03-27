@@ -22,6 +22,8 @@ def count_vowels(str)
   count
 end
 
+puts count_vowels("hello world") # => 3
+
 # Mental idea:
 # Start count at 0
 # Increase when condition true

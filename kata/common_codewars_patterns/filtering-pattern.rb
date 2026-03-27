@@ -13,6 +13,8 @@ end
 # input [1,2,3,4,5]
 # output => [2,4]
 
+puts even_numbers([1,2,3,4,5]) # => [2,4]
+
 # Loop version
 def l_even_numbers(arr)
   result = []
@@ -25,3 +27,5 @@ def l_even_numbers(arr)
 
   result
 end
+
+puts l_even_numbers([2,4,6,8,10]) # => [2,4,6,8,10]
