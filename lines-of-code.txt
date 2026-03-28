@@ -1,0 +1,8 @@
+# Total lines for tracked files
+git ls-files | xargs wc -l
+
+# Total lines for Ruby files under `.` (recursive)
+find . -name '*.rb' -print0 | xargs -0 wc -l
+
+# Detailed per-language counts (install first: `brew install cloc`)
+cloc .
